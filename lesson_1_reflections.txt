@@ -1,0 +1,40 @@
+Q1: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Ans: I know the code was working in the previous verion. So by knowing what is introduced in 
+the new version will help to pin point the exact location that is creating the problem.
+
+
+Q2: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Ans: We can go back to any point in time in the past. So if any issues are reported, we can revert back 
+to the previous version and then work on fixing the problem instead of waiting for the issue to be fixed
+and then bring the software backup online.
+
+
+Q3: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs 
+having versions automatically saved, like Google docs does?
+
+Ans: This allowes the programmer to have full control on when to commit. In the coding situation, a logical commit 
+point cannot be determined automatically. This is more of the judgement of the person who is wring the code.
+
+Q4: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
+
+Ans: Git is for version control of programs. In programs, files are closely related to each other. So it makes sense to 
+have the status of all the files stored together in a commit. Google docs are more about individual docs that are not 
+related to each other.
+
+Q5: How can you use the commands git log and git diff to view the history of files?
+
+Ans: Use git log to see all the commit history of the project. To see the difference between two commits, use the 
+git diff <commit1> <commit2> to see the exact difference between two files. If we just want to see the total number of
+lines inserted or deleted, use git log --stat, which is more detailed history of git commit1
+
+Q6: How might using version control make you more confident to make changes that could break something?
+
+Ans: Much confident because now I can easily go back in history and revert back to any point in time.
+
+
+Q7: Now that you have your workspace set up, what do you want to try using Git for? 
+
+Ans: For my next coding project.
