@@ -1,1 +1,6 @@
-Q1: Not sure what the first question will be.
+Q1: When would you want to use a remote repository rather than keeping all your work local?
+
+Ans: Reomte repository is required when you want to collaborate with several people. Now with a remote repo, we can 
+send local work to central location. Others can also send thier work to same remote repo. In this way mutiple developers can 
+work together.
+
